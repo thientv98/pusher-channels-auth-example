@@ -60,10 +60,11 @@ app.post(config.ENDPOINT, (req, res) => {
   if (/^presence-/.test(channelName)) {
     // If the request is for a presence channel include some data about the user
     // in the call to authenticate
-    let timestamp = new Date().toISOString();
+    const userId = req.query.user_id || new Date().toISOString();
     let presenceData = {
-      user_id: `user-${timestamp}`,
+      user_id: `${userId}`,
       user_info: {
+        id: `${userId}`,
         name: 'Pusherino',
         twitter_id: '@pusher',
       },
