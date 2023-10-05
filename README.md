@@ -16,7 +16,7 @@ dashboard](https://dashboard.pusher.com)
 You'll need to insert your `appId`, `appKey`, `appSecret` and `cluster` when
 deploying your app.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pusher/pusher-channels-auth-example)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thientv98/pusher-channels-auth-example)
 
 ## Run It Locally
 
